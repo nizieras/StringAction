@@ -10,8 +10,9 @@ public class MyStringClass {
     public static void StringToLowCase(String Line){
         System.out.println(Line.toLowerCase());
     }
-    public static void StringLen(String Line){
+    public static int StringLen(String Line){
         System.out.println("Длина введенной строки: " + Line.length());
+        return Line.length();
     }
     public static void StringUnion(String FirstLine, String SecondLine){
         System.out.println(FirstLine + ' ' + SecondLine);
