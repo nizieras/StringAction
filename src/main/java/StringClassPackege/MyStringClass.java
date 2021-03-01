@@ -27,7 +27,7 @@ public class MyStringClass {
 if(selection>0 && selection <5)
 {
     String MyFirstLine;
-    String SecondLine;
+    String SecondLine = " ";
     if(selection == 1 || selection ==2 || selection ==3)
     {
         System.out.println("Введите строку:");
@@ -54,12 +54,12 @@ if(selection>0 && selection <5)
         }
         case 3:
         {
-
+            StringLen(MyFirstLine);
             break;
         }
         case 4:
         {
-
+            StringUnion(MyFirstLine, SecondLine);
             break;
         }
     }
