@@ -17,5 +17,4 @@ public class MyStringClass {
     public static String stringUnion(String FirstLine, String SecondLine){
         return FirstLine + SecondLine;
     }
-    public static void main(String[] args) { }
 }
